@@ -7,7 +7,7 @@ void menu()
 {
     cout<<"Bienvenido a la calculadora "<<endl;
     cout<< "Introduzca dos numeros y una operacion de las que se mostrara acontinuacion" <<endl ;
-    cout << "+ - *" << endl;
+    cout << "+ - * /" << endl;
     }
 
 
@@ -35,7 +35,8 @@ int main()
                 cout << "el resultado es : " << num1 - num2<<endl;
             case "*":
                 cout << "el resultado es : " << num1 * num2<<endl;
-
+            case "/":
+                cout << "el resultado es : " << num1 / num2<<endl;
             default:
                 cout << "en construccion"<< endl;
             

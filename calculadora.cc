@@ -38,7 +38,14 @@ int main()
             case "*":
                 cout << "el resultado es : " << num1 * num2<<endl;
             case "/":
-                cout << "el resultado es : " << num1 / num2<<endl;
+                if (num2 == 0)
+                {
+                    cout<< "Division entre 0, por favor introduzca otro valor como segundo numero"<<endl;
+                }
+                else
+                {
+                    cout << "el resultado es : " << num1 / num2<<endl;
+                }
             case "R":
                 cout << "el resultado es : " << sqrt(num1)<<endl;
             case "^":
